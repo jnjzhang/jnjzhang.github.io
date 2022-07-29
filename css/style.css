@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/* ------------------------------------------------------------------ */
+/* Structure
+/* ------------------------------------------------------------------ */
+html {
+    overflow:scroll;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+body {    
+    color:#323232;
+}
+.container {
+    width:680px;
+    margin: 0 auto;
+}
+header {
+    margin-top:2em;
+    clear: both;
+    width:100%;
+}
+#content {
+    width: 100%;    
+    margin-bottom:1em;
+    float:left;
+}
+#content hr {
+    border:none;
+    margin-bottom: 1.5em;
+    border-top: 1px solid #ECF0F1;
+}
+/* ------------------------------------------------------------------ */
+/* Header Logo
+/* ------------------------------------------------------------------ */
+.logo {
+    width:100%;
+    display: block;
+}
+.school-logo {
+    width:70%;
+    height:52px;
+    float:left;
+    margin-bottom:1em;
+    display:block;
+}
+.name-logo {
+    position: relative;
+    width:30%;
+    height:52px;
+    float:right;
+    margin-bottom:1em;
+}
+.name-logo span {
+    position: absolute;
+}
+.name-logo span#entop {
+    top: 0;
+    right: 0;
+    font-family: "Brush Script MT", cursive;
+    font-size: 150%;
+    color:#00245d;
+}
+.name-logo span#cntop {
+    top: 0;
+    right: 0;
+    font-family:STXingkai, KaiTi, STKaiti;
+    font-size: 150%;
+    font-weight: bold;
+    color:#00245d;
+}
+.name-logo span#bottom {
+    bottom: 0;
+    right: 0;
+    font-size: 100%;
+}
+.logo a{
+    color:#00245d;
+}
+.logo a:hover {
+    text-decoration: none;
+    color:#76b4cf;
+}
+.mobile-logo {
+    display:none;
+}
+/* ------------------------------------------------------------------ */
+/* Footer
+/* ------------------------------------------------------------------ */
+#footer {
+    margin-bottom:2em;
+    clear:both;
+    text-align:left;    
+}
+#footer p {
+    font-size: 75%;
+    color:#939598;
+}
+#footer hr {
+    margin-top: 2em;
+    border:none;
+    border-top: 1px solid #00245d;
+}
+/* ------------------------------------------------------------------ */
+/* Navigation Bar
+/* ------------------------------------------------------------------ */
+
+#navcontainer {
+    float: left;
+    margin-bottom: 2em;
+    width:100%;            
+    padding: 0;
+}
+#navcontainer ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+#navcontainer ul li {
+    position: relative;
+    width:24.8%;
+    float: left;
+    margin-right: 1px;
+    margin-top: 1px;
+    background-color: #00245d;
+}
+#navcontainer ul li:hover {
+    background-color: #0B615E;
+}
+
+#navcontainer ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+#navcontainer ul li.current-menu-item {
+    background: #0B615E;
+}
+
+#navcontainer ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    padding:0px;
+}
+
+#navcontainer ul ul li {
+    float:none;
+    width:100%;
+    padding:0px;
+    border-top: 5px solid #fff;
+    background-color: #0B615E;
+}
+
+#navcontainer ul ul a {
+    line-height:100%;
+    padding: 5px;
+}
+
+#navcontainer ul ul ul {
+    top:0;
+    left:100%;
+}
+
+#navcontainer ul li:hover > ul {
+    display:block;
+}
+#navcontainer ul li ul li:hover {
+    background-color: #01DF74;
+}
+/* ------------------------------------------------------------------ */
+/* Sub Navigator
+/* ------------------------------------------------------------------ */
+.submenu {
+    text-align: left;
+    font-weight:normal;
+    margin-bottom: 2em;
+}
+.submenu h1 {
+     font-weight:normal;
+} 
+.submenu a {
+    color:#036;
+}
+.submenu a:hover {    
+    background-color: #036;
+    text-decoration: none;
+    color:#fff;
+}
+/* ------------------------------------------------------------------ */
+/* Index Page Styles
+/* ------------------------------------------------------------------ */
+.index_left {
+    width:30%;
+    float:left;
+}
+.index_left p {
+    font-size: 12px;
+}
+.index_title {
+    width: 70%;
+    float:right;
+}
+.index_right {
+    width: 70%;
+    float:right;
+}
+.name {
+    font-weight:normal;
+}
+
+/* ------------------------------------------------------------------ */
+/* Paper List
+/* ------------------------------------------------------------------ */
+ol > li {
+    position: relative;
+    padding-left: 10px;
+    margin-left: -0.5em;
+    margin-bottom: 25px;
+}
+ol > ul {
+    margin-bottom: 15px;
+}
+
+ol > ul > li {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Other Styles
+/* ------------------------------------------------------------------ */
+a:link {
+    text-decoration:none;
+}
+a:visited {
+    color: #036;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border-style: none;
+    max-width: 100%;
+    height:auto;
+}
+h1 {
+    font-size:100%;
+}
+h2 {
+    font-size:100%;
+    margin-top:2em;
+    margin-bottom: 0;
+    color:#76b4cf;
+}
+h3 {
+    font-size:100%;
+}
+#white_space {
+    margin: 0;
+}
+/* ------------------------------------------------------------------ */
+/* CV Styles
+/* ------------------------------------------------------------------ */
+#cv_list ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+#cv_list ul li{    
+    text-indent:-2em;
+    margin-left:2em;
+}
+/* ------------------------------------------------------------------ */
+/* Chinese Styles
+/* ------------------------------------------------------------------ */
+/*
+#cn_content {    
+    font-family: STXihei, STHeiti, "Microsoft YaHei", SimSun, SimHei, sans-serif;    
+}
+#cn_content ul{
+    margin:0;
+    padding:0;
+}
+#cn_content ul li{    
+    margin-left:2em;
+}
+*/
+/* ------------------------------------------------------------------ */
+/* Mobile
+/* ------------------------------------------------------------------ */
+@media screen and (max-width: 680px){
+    header {
+        margin-top:1em;
+    }
+    .container {
+        max-width:100%;
+        border: none;
+        background: none;
+        padding: 10px;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+        color:#00245d;
+        float: right;
+        margin-bottom:1em;
+        width:100%;
+    }
+    .mobile-school-logo {
+        width:70%;
+        float:left;
+        font-weight: bold;
+        font-family: "Brush Script MT", cursive;
+    }
+    .mobile-name-logo {
+        position: relative;
+        width:30%;
+        float:right;
+        text-align: right;
+    }
+    .mobile-title {
+        text-align: center;
+    }
+    .index_left {
+        width: 100%;
+        float:none;
+        text-align:center;
+    }
+    .index_left p {
+        font-size: 75%;
+    }
+    .index_title {
+        width: 100%;
+        float:none;
+        text-align: center;
+    }
+    .index_right {
+        width: 100%;
+        float:none;
+    }
+    #navcontainer ul li:hover > ul {
+        display:none;
+    }
+    #navcontainer ul li {
+        width:24.6%;
+    }
+}
